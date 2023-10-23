@@ -1,0 +1,60 @@
+<!doctype>
+<html>
+<head>
+	<title>
+		forms.in
+	</title>
+</head>
+<body>
+<h1> FORMS </h1>
+<form action="/rgukt.web" target="_self" method="post">
+	<label for="FN"> First Name: </label>
+	<input type="text" name="First Name" placeholder="enter your first name" id="FN" >  <br> <br>
+	<label for="LN"> Last Name: </label>
+	<input type="text" name="Last Name" placeholder="enter your last name" id="LN" > <br> <br>
+	<label for="psw" > Password:</label>
+	<input type="password" name="psw" placeholder="enter password" id="psw" size="20" maxlength="8"> <br> <br>
+	<label for="Gender" >Gender:</label>
+	<input type="radio" name="gender" checked > Male
+	<input type="radio" name="gender" > Female
+	<input type="radio" name="gender" > Others<br> <br>
+	Select your favourite color:
+	<input type="checkbox" name="color" > GREEN
+	<input type="checkbox" name="color" > RED
+	<input type="checkbox" name="color" checked> WHITE <br> <br>
+	Upload a pic😉️:
+	<input type="file" name="pic" accept=".jpg,.pdf"> <br> <br> 
+	Upload an audio😉️:
+	<input type="file" name="audio" accept=".mp3"> <br> <br>
+	Upload a document😉️:
+	<input type="file" name="presentation" accept=".odt,.odp"> <br> <br>
+	Additional data:
+	<textarea rows="5" cols="20"> qwerty </textarea> <br> <br> 
+	<fieldset><legend> section selection </legend>
+	Section: <select name="section" size="3" multiple="2">
+		<option value="red"> class-13 </option>
+		<option> class-6 </option>
+		<option> class-7 </option>
+		<option> class-8 </option>
+		<option> class-9 </option>
+		<option> class-10 </option>
+		<option> class-11 </option>
+		<option> class-12 </option>
+		<option> class-13 </option>
+		<option> class-14 </option>
+		<option> class-15 </option>
+		</select> 
+	</fieldset>
+	<fieldset> <legend> Login details </legend>
+		Username: <input type="text" label="username" name="uid"> <br> <br>
+		Password: <input type="password" name="psw">
+	</fieldset>
+	<br> <br> 
+	<input type="submit" name="subbmission" value="submit">
+	<input type="button" name="button" value="forward">
+	<input type="image" src="/home/udaysaisrikar/Desktop/HTML/pic.jpg" height="40" width="60" name="img" value="Click on image" >
+	<input type="reset" name="reset">
+</form>
+<hr>
+</body>
+</html>
